@@ -39,3 +39,15 @@ def cubes(a):
 def find_perimeter(length, width):
     perimeter = (length + width) * 2
     return perimeter
+
+# To the Power of _____
+# Examples
+# calculate_exponent(5, 5) ➞ 3125
+# calculate_exponent(10, 10) ➞ 10000000000
+#calculate_exponent(3, 3) ➞ 27
+
+def calculate_exponent(num, exp):
+    result = num ** exp
+    return result
+
+calculate_exponent(3, 3)
