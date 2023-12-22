@@ -51,3 +51,13 @@ def calculate_exponent(num, exp):
     return result
 
 calculate_exponent(3, 3)
+
+# Football Points
+# Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
+# wins get 3 points
+# draws get 1 point
+# losses get 0 points
+
+def football_points(wins, draws, losses):
+    final_points = wins * 3 + draws * 1 + losses * 0
+    return final_points
