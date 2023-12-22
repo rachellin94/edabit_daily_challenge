@@ -27,3 +27,8 @@ def calc_age(age):
 def reminder(x, y)
     result = x % y
     return result 
+
+# Buggy Code (Part 1)
+# ans : 
+def cubes(a):
+	  return a ** 3
