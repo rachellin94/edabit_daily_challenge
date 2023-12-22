@@ -32,3 +32,10 @@ def reminder(x, y)
 # ans : 
 def cubes(a):
 	  return a ** 3
+
+# Find the Perimeter of a Rectangle
+# ans ：
+
+def find_perimeter(length, width):
+    perimeter = (length + width) * 2
+    return perimeter
