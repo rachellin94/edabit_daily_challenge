@@ -15,3 +15,9 @@ def dis(price, discount):
     total_price = price * final_discount
     round_price = round(total_price, 2)
     return round_price 
+
+
+# Area of a Triangle
+def tri_area(base, height):
+    tri_result = base * height / 2 
+    return tri_result 
