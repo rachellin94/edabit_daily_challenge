@@ -12,3 +12,9 @@ def circle_or_square(rad, area):
     	return True
     else:
    		return False 
+# Boolean to String Conversion
+# Create a function that takes a boolean variable flag and returns it as a string.
+
+def bool_to_string(flag):
+    flag = str(flag)
+    return flag 
