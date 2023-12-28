@@ -16,6 +16,8 @@ def required_sum(num, i):
         s += pow(digit, i)
         
     return s
+    
+# -----------------------------------------------------------------------------------------------------
 
 """Functions for implementing the rules of the classic arcade game Pac-Man."""
 def eat_ghost(power_pellet_active, touching_ghost):
@@ -53,7 +55,6 @@ def lose(power_pellet_active, touching_ghost):
         return True
     else:
         return False
-# -----------------------------------------------------------------------------------------------------
 
 def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
     """Trigger the victory event when all dots have been eaten.
