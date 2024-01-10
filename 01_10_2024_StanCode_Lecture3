@@ -1,1 +1,17 @@
+# Assignment_1
+
+"""
+File: hello_world.py
+Name: Rachel
+-----------------------------------
+This program prints 'hello, world!'
+on Console and shows the basic 
+Python syntax
+"""
+
+
+def main():
+	print("Hello,World!", end ="")
+	print("My favorite movie: Gifted", end ="")
+	print("Fun Fact:I am allergic to beer but I still love to drink it haha", end ="")
 
