@@ -33,3 +33,16 @@ def main():
     tax = float(input("Tax:"))
     total = meal * (1 + tax)
     print("Total"+ str(total)+ "!")
+
+# Assignment_3 
+
+def main():
+    score = int(input("Score:"))
+    if score >= 90:
+        print("A")
+    elif score >= 80:
+        print("B")
+    elif score >= 70:
+        print("C")
+    else: 
+        print("D")
