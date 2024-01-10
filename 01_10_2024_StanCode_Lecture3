@@ -15,3 +15,21 @@ def main():
 	print("My favorite movie: Gifted", end ="")
 	print("Fun Fact:I am allergic to beer but I still love to drink it haha", end ="")
 
+# Assignment_2
+
+"""
+File: receipt.py
+Name: Rachel
+-------------------------
+This program calculates the meal cost
+and prints the result on Console.
+Students will learn variables, user inputs,
+and concatenation
+"""
+
+
+def main():
+    meal = int(input("How much was your meal?"))
+    tax = float(input("Tax:"))
+    total = meal * (1 + tax)
+    print("Total"+ str(total)+ "!")
