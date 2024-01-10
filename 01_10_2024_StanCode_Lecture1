@@ -1,3 +1,4 @@
+# Assignment_1
 """
 File: StepUp.py
 Name: Rachel
@@ -24,3 +25,26 @@ def main():
     move()
     put_beeper()
     move()
+
+# Assignment_2
+def main():
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    put_99_beepers()
+    move()
+
+
+def put_99_beepers():
+    for i in range(99):
+        put_beeper()
+
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
