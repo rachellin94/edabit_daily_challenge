@@ -1,1 +1,32 @@
+# Assignment_1
+
+"""
+File: guess_my_number.py
+Name:  Rachel
+-----------------------------
+This program plays a Console game
+"Guess My Number" which asks user
+to input a number until he/she gets it
+"""
+
+# This number controls when to stop the game
+SECRET = 32
+
+
+def main():
+    print("Guess a number from 0-99")
+    guess_number = int(input("Your guess"))
+    while guess_number != SECRET:
+        if guess_number > SECRET:
+            print("too high!")
+            guess_number = int(input("Your guess"))
+        else:
+            print("too low!")
+            guess_number = int(input("Your guess"))
+    print("Congrats! Your number is correct!")
+
+
+# ----- DO NOT MODIFY CODE BELOW THIS LINE ----- #
+if __name__ == '__main__':
+    main()
 
