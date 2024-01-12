@@ -30,3 +30,26 @@ def main():
 if __name__ == '__main__':
     main()
 
+# Assignment_2_While_True_Practice 
+
+# This number controls when to stop the game
+SECRET = 32
+
+
+def main():
+    print("Guess a number from 0-99")
+    while True:
+        guess_number = int(input("Your guess"))
+        if guess_number < SECRET:
+            print("too low!")
+        elif guess_number == SECRET:
+            break
+        else:
+            print("too high!")
+    print("Congrats! Your number is correct!")
+
+
+# ----- DO NOT MODIFY CODE BELOW THIS LINE ----- #
+if __name__ == '__main__':
+    main()
+
