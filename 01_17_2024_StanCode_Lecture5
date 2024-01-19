@@ -44,4 +44,30 @@ def main():
 				print("*", end= "")
 		print("")
 
+# Assignement_ 3
+
+"""
+File: my_power_function.py
+Name: Rachel
+-------------------------------
+This program shows students how to 
+make their own functions by defining
+def my_power(a, b)
+"""
+
+
+def main():
+	print('This program prints a to the power of b.')
+	a = int(input('a: '))
+	b = int(input('b: '))
+	print(my_power(a, b))
+
+
+def my_power(a, b):
+	ans = 1
+	for i in range(b):
+		ans = ans * a
+	return ans
+
+
 
