@@ -16,7 +16,7 @@ def main():
 	for i in range(ROW):
 		for j in range(COL):
 			print("#",end="")
-	print("")
+		print("")
 
 
 # ----- DO NOT MODIFY CODE BELOW THIS LINE ----- #
